@@ -59,6 +59,10 @@ define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('NONCE_SALT'));
 
+
+define('WP_HOME', getenv('WP_HOME'));
+define('WP_SITEURL',getenv('WP_SITEURL'));
+
 /**#@-*/
 
 /**
