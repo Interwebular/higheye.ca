@@ -1,0 +1,86 @@
+Version 4.1.1 (November 28, 2016)
+- Re-formatted the layout style on the offer feeds that will apply to both the page content offer feeds and the sidebar offer feeds.
+- Increased the number of excerpt characters in page content offer feeds from 100 to 150 characters.
+- Added a warning notification message when Google Analytics is not added to the website. This can be triggered by just pressing the submit button on an offer page with Advance Landing Page form added to it.
+- Added a link to view the full change log in the settings page.
+- Added the "Manual Plugin Updater PHP Class" that is added in "lib/manual-plugin-updater" that will perform the  following:
+	Manual Plugin Updater Features:
+	- Plugin checking via the hosted version.txt file.
+	- Manual plugin updater POST method.
+	- Global warning notification that will notify the user to perform quick database update and plugin reactivation.
+	Manual Plugin Updater Fixes:
+	* Fixed a bug on the Manual Plugin Updater being unable to work in some servers without Zlib compression library.
+	* Fixed the Manual Plugin Updater to open directory path stream using the file_get_contents() FILE_USE_INCLUDE_PATH option that will check for the version.txt file of the uploaded plugin file via the Manual Plugin Updater.
+	* Fixed and optimized file permission error messages to properly display when incorrect file permissions are detected.
+- Front-end Google Analytics warning message is now removed to avoid negative impact to user experience.
+
+Version 4.1.0 (October 24, 2016)
+- Fixed the cursor style of the submit button in front-end when sending/submitting the form. It should now display the correct cursor style.
+- Added a global warning notification whenever the plugin is updated or installed with the latest version.
+- Added a warning message right below the Layout selection for the type of form to be used.
+- Imrpoved and re-coded the manual plugin updater module. The updater will now rely on a database and time checking using timestamps rather than Wordpress Cron Jobs to avoid malfunctioning in some cases where the Wordpress Cron Jobs no longer initiate action hooks as expected.
+- Plugin version check interval is increased from 15 minutes to 1 hour.
+- Renamed the plugin name to Advanced Landing Page.
+
+Version 4.0.9 (October 10, 2016)
+- Fixed ALP_BASEURL constant (pluigin url) that was defined with an incorrect Wordpress file constant.
+- Fixed ALP_BASEPATH constant (pluigin path) that was defined with an incorrect Wordpress file constant.
+- Fixed the issue on unsecure css/js resources being loaded from the plugin when installed in an SSL domain environment.
+- Added the "settings" action link in the plugins page.
+- Added Ajax on reactivation module.
+- Added cron jobs for checking new plugin updates.
+- Added plugin update notification that can be triggered whenever a new plugin version/update is available.
+- Added host files that are uploaded to Dropbox for plugin version checking and hosting the change log text file.
+- Added warning messages in the manual plugin updater module whenever an incorrect file permission is present.
+- Added Sendpepper API option to enable or disable the Sendpepper API module.
+- Added Wordpress dashicons to the settings page.
+- Added a dynamic change log iframe that can be viewed in the settings page.
+- Imrpoved and re-coded the manual plugin updater module.
+- Revamped the plugin settings page.
+
+Version 4.0.8 (September 6, 2016)
+- Added the Sendpepper contacts API.
+- Added PHP Constants and applied throughout the plugin for consistency.
+- Re-coded the action hooks and migrated some line of functions for a cleaner code mark-up.
+
+Version 4.0.7
+- Added settings page under WP Dashboard -> Settings.
+- Added manual plugin updater for future plugin updates.
+- Added version.txt that will automatically write the current version of the plugin for version checking prior to plugin update.
+- Added link to changelog.txt for version checking.
+- Added admin-css.css for the settings page.
+- Re-coded the main plugin file for a cleaner code markup and folder-file organization.
+- Revamped the front-end inline style (css).
+
+Version 4.0.6
+- Fixed expiration date issue.
+- Fixed HTML formatting for outgoing emails.
+- Added error debug functionality on front-end to determine if Google Analytics Tracking code is defined.
+
+Version 4.0.5
+- Added GA commands (google analytics) to Print Coupons and Call Now action buttons.
+- Added email validation for valid email address input on the email field (front-end).
+
+Version 4.0.4
+- Fixed double submit issue and added ajax loading message and icon on submit.
+
+############
+Old Updates:
+
+Version 3.0.9
+- Added clarification on Email Field Name for Download Type.
+
+Version 3.0.8
+- Fixed conflict with Smart 404 Plugin.
+
+Version 3.0.7
+- Fixed no expiry date should be treated as ongoing.
+
+Version 3.0.6
+- Fixed button color.
+
+Version 3.0.3
+- 15004 -> 15004
+
+Version 3.0.2
+- Added shorcode for the sidebar.

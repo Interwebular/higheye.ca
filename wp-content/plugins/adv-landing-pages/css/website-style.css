@@ -1,0 +1,121 @@
+.active-offers .thumbnail {
+    display: inline-block;
+    width: 100%;
+	max-width: 100%;
+    vertical-align: top;
+    max-height: 100px;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+.active-offers .content {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+ul.active-offers-detailed {
+	list-style: none!important;
+    margin: 15px 0;
+    padding: 0!important;
+}
+.active-offers-detailed li {
+    margin: 0;
+}
+.active-offers-detailed .thumbnail {
+    width: 100%;
+	max-width: 170px;
+    display: inline-block;
+    vertical-align: top;
+}
+.active-offers-detailed .content {
+    width: 100%;
+    max-width: 73%;
+    display: inline-block;
+    vertical-align: top;    
+}
+h3.offer-title {
+    margin: 0 0 10px;
+}
+ul#alp-active-offers-list-content .content .readmore {
+    clear: left;
+    display: block;
+    margin-top: 10px;
+}
+ul#alp-active-offers-list-content .content .readmore a {
+    text-decoration: none;
+    background-color: #333333;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+ul#alp-active-offers-list-sidebar .content .readmore {
+	background-color: #333333;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+ul#alp-active-offers-list-sidebar .content .readmore a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#alp-active-offers-list-sidebar .offer-sub-title {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+ul#alp-active-offers-list-sidebar li {
+	padding-bottom: 15px!important;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 0;
+    padding-top: 15px!important;
+}
+ul#alp-active-offers-list-sidebar li:first-child {
+	padding-top: 0!important
+}
+ul#alp-active-offers-list-sidebar li:last-child {
+	padding-bottom: 0!important;
+	border-bottom: none!important;
+}
+.active-offers-detailed h4.offer-sub-title {
+    margin: 3px 0 5px;
+}
+ul#alp-active-offers-list-sidebar h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+	text-transform: capitalize;
+}
+.active-offers-detailed > li {
+    margin-bottom: 20px;
+}
+.error-msg {
+    margin-bottom: 5px;
+    font-style: italic;
+}
+.alp-body {
+    clear: both;
+}
+@media (max-width: 1170px) {
+	.active-offers-detailed .content {
+		max-width: 67%;
+	}
+}
+@media (max-width: 720px) {
+	.active-offers-detailed .content {
+		max-width: 57%;
+	}
+}
+@media (max-width: 550px) {
+	.active-offers-detailed .content {
+		max-width: 47%;
+	}
+}
+@media (max-width: 490px) {
+	.active-offers-detailed .content {
+		max-width: 100%;
+	}
+	ul#alp-active-offers-list-content {
+		max-width: 90%;
+		margin: 30px auto;
+	}
+}

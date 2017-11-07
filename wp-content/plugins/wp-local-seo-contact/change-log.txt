@@ -1,0 +1,58 @@
+Version 1.1.6 (May 4, 2017)
+- Fixed both the schema and microformats markup.
+- Fixed incorrect time format as itemprop for schema markup.
+- Fixed SSL issues to properly apply HTTP and HTTPS protocols.
+- Added Clear button for a number of input fields in the settings page.
+- Added admin warning notification when the Company Logo field is empty on the current Address Tab that was used.
+- Added Company Logo field(required) in the settings page.
+- Added background database migration for the newly added logo field and Vimeo social media field.
+- Added PHP Constants for plugin url and plugin version.
+- Added changelog text and link to the changelog text in the settings page.
+
+Version 1.1.5 (March 20, 2017)
+- Removed the string August 8, 2013 date that was placed mistakenly in the contact wrapper.
+
+Version 1.1.4 (September 2, 2016)
+- Added Vimeo icon
+- Added script for spacing the social icons when rendered on the front-end.
+
+Version 1.1.3 (February 19, 2016)
+- Added a script that automatically removes http:// and https:// string from the URL.
+- Added an admin message when the options are saved.
+- Removed autocomplete on the URL input fields.
+- Fixed the Del.icio.us icon that has a null input name and value that prevented it from saving.
+
+Version 1.1.2 (February 11, 2016)
+- Updated the Google Plus icon
+
+###############################
+Pending request update:
+- Include manual plugin updater.
+- Include changelog button link.
+- Include a settings page.
+- Include plugin icon.
+- Revamped the design.
+- Re-code the plugin into several script files.
+
+
+
+
+###############################
+Old change logs
+
+Version: 1.0.2 - Feb. 24, 2014
+- fixed slashes on input's
+Version: 1.0.3 - Feb. 27, 2014
+- fixed phone numbers not saved
+Version 1.0.4 - Fixed Item Prop
+
+Version 1.0.5 - new twitter icon
+
+Version 1.0.6 - edit image sizes
+
+Version 1.0.9
+   fixed pinterest image
+   added houzz
+   added instagram
+Version 1.1.0
+   sort social icons

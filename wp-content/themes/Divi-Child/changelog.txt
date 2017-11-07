@@ -1,0 +1,9 @@
+Version 1.1
+- Added read more button in the archive pages (blog).
+- Set post thumbnail on archive pages to avoid overflow display.
+- Changed the hover color on default form submit button.
+- Fixed extra padding/margin on single post when a photo is added.
+- Bumped style.css to version 1.1 from the old version 2.1.
+
+Version 1.0
+- Initial Updated Version

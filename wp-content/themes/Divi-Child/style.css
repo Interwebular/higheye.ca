@@ -1,0 +1,168 @@
+/*
+Theme Name: Divi Child
+Theme URI: 
+Description: A custom child theme for Divi.
+Author: Wordjack Team
+Author URI: http://wordjack.com/
+Template: Divi
+Version: 1.1
+*/
+
+@import url("../Divi/style.css");
+.child-custom {
+	position: relative!important;
+}
+.et-fixed-header .child-custom {
+	position: absolute!important;
+}
+.et_header_style_centered .et-fixed-header .child-custom  {
+	position: relative!important;
+}
+.et_header_style_split .et-fixed-header .child-custom {
+	position: relative!important;
+}
+.et_header_style_centered #main-header .child-container, .et_header_style_split #main-header .child-container, .et-fixed-header .child-container {
+	padding-top: 0px;
+}
+.et_header_style_centered #main-header .child-custom {
+	display: inline-block;
+}
+.page-template-default .header-break, .et_header_style_centered #main-header .break-none, .et_header_style_split #main-header .logo_container .break-none, .et-fixed-header .header-desc, .et-fixed-header #header-text, .et_header_style_split #main-header .header-desc {
+	display: none;
+}
+.et_header_style_centered #main-header .header-break {
+	display: block;
+}
+input[type=text], input[type=tel], input[type=email], input[type=password], input.text, input.title, textarea, select {
+	max-width: 100%;
+}
+.wpcf7-text, .wpcf7-email, .wpcf7-tel, .wpcf7-textarea {
+	max-width: 100%;
+	padding: 5px!important;
+    border: 1px solid rgba(0, 0, 0, 0.25)!important;
+    border-radius: 3px;
+}
+.wpcf7-submit {
+    background-color: #15AD0E;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.wpcf7-submit:hover {
+	background-color: #12900C;
+}
+.form-submit input {
+	background-color: #444444;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form-submit input:hover {
+	padding: 7px 10px;
+	background-color: #D23D3D;
+}
+.et_header_style_left .logo_container {
+	top: 0px;
+}
+.et_header_style_left #header-text {
+	float: right;
+	padding-top: 20px;
+}
+.center-layout {
+	margin-bottom: 10px;
+}
+.et_header_style_left .center-layout {
+	display: none;
+}
+.et_header_style_centered .default-layout {
+	display: none;
+}
+.center-layout-div {
+	display: none;
+}
+.et_header_style_centered .center-layout-div {
+	display: inline-block;
+	height: 30px;
+}
+.et-fixed-header .center-layout-div {
+	display: none;
+}
+.et_header_style_split .default-layout, .et_header_style_split .center-layout {
+	display: none;
+}
+#searchsubmit {
+	cursor: pointer;
+}
+.thumb-post img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.post-thumb-devider {
+	margin-top: 10px;
+}
+.read-more-post {
+	background-color: #222222;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 5px 10px;
+}
+.read-more-post:hover {
+	background-color: #D23D3D;
+}
+.post-thumb-div_right {
+	float: right;
+	width: 78%;
+}
+.post-thumb-div_right h2 {
+	margin-top: 0;
+}
+.post-thumb-div_left {
+	float: left;
+	width: 21%;
+	max-height: 164px;
+    overflow: hidden;
+}
+.entry_div {
+	clear: both;
+}
+.et_pb_post .entry-content {
+	padding-top: 0;
+}
+img.alignright, img.alignleft {
+	margin-top: 30px;
+}
+#left-area .post-meta {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+@media (max-width: 980px) {
+	.et_header_style_centered .center-layout {
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+	.et_header_style_centered .center-layout-div {
+		display: none;
+	}
+}
+@media (max-width: 480px) {
+	.thumb-post img {
+		float: none;
+	}
+	.post-thumb-div_left {
+		float: none;
+		width: auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.post-thumb-div_right {
+		float: left;
+		width: 100%;
+	}
+}

@@ -1,0 +1,192 @@
+.lssc-form {
+    border: solid #aaaaaa 1px;
+    width: 90%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+.lssc-form  label {
+	min-width: 200px;
+	display: inline-block;
+	font-weight: 600;
+}
+.lssc-form legend {
+    background: #795548;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #2b1f1b;
+}
+#fs-contactinfo {
+	float: left;
+}
+#fs-hoursoperation {
+	float: left;
+	margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+}
+#fs-hoursoperation table {
+	width: 50%;
+}
+#fs-socialbuttons {
+	clear: both;
+	padding-top: 30px;
+}
+.el-phone input[type="text"]{
+	width: 50px;
+}
+.address-nav {
+    margin-bottom: 10px;
+	padding-bottom:10px;
+	border-bottom: double #ccc 4px;
+}
+.address-nav a {
+   padding: 3px 10px;
+   text-decoration: none;
+   margin-right: 10px;
+}
+.current-add {
+	font-weight: normal;
+    background: #4CAF50;
+    color: #ffffff!important;
+    text-shadow: none;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #2a692d;
+}
+.localseo-shortcode span{
+	color: #218AC2;
+	font-weight: bold;
+}
+#fs-socialbuttons input[type="text"] {
+	width: 200px;
+	color: #000000;
+}
+.ebs-dayname {
+	width: 45px;
+	display: inline-block;
+}
+.close-time {
+	width: 60px;
+	display: inline-block;
+}
+.open-time {
+	width: 60px;
+	display: inline-block;
+	text-align: right;
+}
+#fs-socialbuttons em.icon {
+    color: #999;
+}
+.sortable-socials li {
+    border: solid #ccc 2px;
+    margin-bottom: 5px;
+    cursor: move;
+    background: #fff;
+    padding: 0 10px;
+}
+.local-seo-admin-right-pane {
+    width: 50%;
+    float: right;
+}
+.local-seo-admin-left-pane {
+    width: 50%;
+    float: left;    
+}
+
+.local-seo .submit {
+    clear: both;
+    padding-top: 15px;
+}
+#fs-socialbuttons input[type="text"]::-webkit-input-placeholder,
+#fs-contactinfo .logo::-webkit-input-placeholder {
+	color: #bbbbbb!important;
+}
+#fs-socialbuttons input[type="text"]:-moz-placeholder,
+#fs-contactinfo .logo:-moz-placeholder { /* Firefox 18- */
+	color: #bbbbbb!important;
+}
+#fs-socialbuttons input[type="text"]::-moz-placeholder,
+#fs-contactinfo .logo::-moz-placeholder {  /* Firefox 19+ */
+	color: #bbbbbb!important;
+}
+#fs-socialbuttons input[type="text"]:-ms-input-placeholder,
+#fs-contactinfo .logo:-ms-input-placeholder {  
+	color: #bbbbbb!important;
+}
+.lssc_version_txt {
+    color: #F44336;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lssc_change_log {
+    font-size: 11px;
+    font-weight: bold;
+}
+.lssc_change_log a {
+    background: #00a0d2;
+    border-color: #0073aa;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5), 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5), 0 1px 0 rgba(0,0,0,.15);
+    color: #fff;
+    text-decoration: none;
+    padding: 1px 5px;
+    border-radius: 3px;
+    position: relative;
+    top: -4px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.lssc_change_log a:hover {
+    background: #0091cd;
+    border-color: #0073aa;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+    color: #fff;
+}
+.lssc-form#fs-notes {
+    background-color: #fff8bd;
+    border: 1px solid #9c9c9c;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: auto;
+    display: inline-block;
+}
+.lssc-form#fs-notes h4 {
+    font-size: 15px;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+.lssc-form#fs-notes ul li {
+	font-size: 14px;
+}
+#lssc_options_btn {
+    background-color: #2196F3;
+    padding: 1px 8px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #1a73b9;
+    font-style: italic;
+	cursor: pointer;
+}
+.lssc_hidden_options {
+	display: none;
+}
+#fs-socialbuttons .clear_btn,
+#fs-contactinfo .clear_btn {
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 2px 10px;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+}
+#fs-socialbuttons .clear_btn:hover,
+#fs-contactinfo .clear_btn:hover {
+    border: 1px solid #555555;
+    color: #000000;
+}

@@ -1,0 +1,178 @@
+/* 
+    Document   : style
+    Created on : Aug 10, 2013, 8:03:31 PM
+    Author     : Edesa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.teaser {
+}
+
+.post-teaser .thumbnail img {
+    /*border: solid #ccc 2px;
+    border-radius: 75px 75px 75px 75px;
+    padding: 4px;    */
+}
+.thumbnail {
+    max-width: 100%;    
+}
+.thumbnail img{
+    max-width: 100%;
+}
+.t-title {
+    
+}
+.read-more {
+    margin-top:15px;
+    display: inline-block;
+}
+.attachment-thumbnail  {
+    width: 150px;
+    height: 150px;
+}
+
+.post-teaser a.read-more:hover {
+    text-decoration: none;
+}
+.post-teaser .t-title a:hover {
+    text-decoration: none;
+}
+
+/** Layout Template 1 */
+.post-teaser-tmpl-1 {
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.post-teaser-tmpl-1.excerpt-icon-100 {
+    padding: 100px 0 0 ;    
+}
+.post-teaser-tmpl-1.excerpt-icon-50 {
+    padding: 50px 0 0 ;    
+}
+.post-teaser-tmpl-1 .thumbnail {
+    display: block;
+    text-align: center;
+}
+
+.post-teaser-tmpl-1 .t-title {
+    text-align: center;
+}
+
+/** Layout Template 2 */
+.post-teaser-tmpl-2  .teaser{
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.post-teaser-tmpl-2.excerpt-icon-100   .teaser{
+    padding: 100px 0 0 ;    
+}
+.post-teaser-tmpl-2.excerpt-icon-50   .teaser{
+    padding: 50px 0 0 ;    
+}
+.post-teaser-tmpl-2 .thumbnail {
+    display: block;
+    text-align: center;
+}
+
+.post-teaser-tmpl-2 .t-title {
+    text-align: center;
+}
+/** Layout Template 3 */
+.post-teaser-tmpl-3 {
+
+}
+.post-teaser-tmpl-3.icon {
+    background-position: left center;
+    background-repeat: no-repeat;    
+}
+.post-teaser-tmpl-3.excerpt-icon-100 {
+    padding: 0 0 0 110px;
+}
+.post-teaser-tmpl-3.excerpt-icon-50 {
+    padding: 0 0 0 60px;
+}
+.post-teaser-tmpl-3 .t-title {
+    text-align: left;
+}
+
+.post-teaser-tmpl-3 .thumbnail {
+    float: left;
+    margin-right: 10px;
+}
+
+@media (max-width: 772px) {
+    .post-teaser-tmpl-3 {       
+        padding: 50px 0 0px;
+        background-position: center top;
+    }
+    .post-teaser-tmpl-3 .t-title{       
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-teaser-tmpl-3{
+        padding: 0 0 0 50px;
+        background-position: left center;
+    }
+    .post-teaser-tmpl-3 .t-title{       
+        text-align: left;
+    }    
+}
+
+/** Layout Template 4 */
+.post-teaser-tmpl-4  .teaser{
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.post-teaser-tmpl-4.excerpt-icon-100   .teaser{
+    padding: 0 0 0 110px;    
+}
+.post-teaser-tmpl-4.excerpt-icon-50   .teaser{
+    padding: 0 0 0 60px;    
+}
+.post-teaser-tmpl-4 .thumbnail {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-teaser-tmpl-4 .t-title {
+    text-align: left;
+}
+
+.home-testimonials article {
+    font-family: Verdana;
+    color: #fff;
+}
+.home-testimonials article:hover {
+
+}
+.home-testimonials article figure.post-image{
+    background: #eeeeee;
+    margin:0!important;
+    display: block;
+    text-align: center;
+    width: 100%; 
+    float: none!important;
+}
+.home-testimonials article .post-content {
+    margin-top:5px;
+    background: #36ab99;    
+}
+.home-testimonials article figure.post-image img {
+    border-radius: 0!important;
+}
+
+.home-testimonials article h1.post-title {
+    display: block;
+    font-size: 90% !important;
+    text-transform: uppercase;
+    width: 182px;
+}
+.home-testimonials article .testimonial-author {
+    text-align: left;
+}
+.home-testimonials article .post-content {
+    padding: 10px;
+}

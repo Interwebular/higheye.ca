@@ -1,0 +1,8 @@
+[24-Sep-2017 06:33:18 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/higheye/public_html/wp-content/themes/Divi-Child/header.php on line 4
+[12-Oct-2017 15:26:43 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/higheye/public_html/wp-content/themes/Divi-Child/header.php on line 4
+[13-Oct-2017 13:28:41 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/higheye/public_html/wp-content/themes/Divi-Child/header.php on line 4
+[16-Oct-2017 00:33:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/higheye/public_html/wp-content/themes/Divi-Child/index.php on line 1
+[16-Oct-2017 11:18:02 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/higheye/public_html/wp-content/themes/Divi-Child/header.php on line 4
+[17-Oct-2017 22:11:36 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/higheye/public_html/wp-content/themes/Divi-Child/header.php on line 4
+[18-Oct-2017 10:00:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/higheye/public_html/wp-content/themes/Divi-Child/index.php on line 1
+[19-Oct-2017 15:25:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/higheye/public_html/wp-content/themes/Divi-Child/index.php on line 1

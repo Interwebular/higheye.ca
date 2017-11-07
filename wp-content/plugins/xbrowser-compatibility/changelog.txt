@@ -1,0 +1,159 @@
+Version 1.3.9 (September 13, 2016)
+- Fixed Collapsed Menu option defaults.
+- Added Ajax saving feature in the CSS Options plugin page that is enabled by default.
+- Added exclude jQuery library when Autoptimize plugin is enabled.
+
+Version 1.3.8 (August 11, 2016)
+- Fixed some inconsistency on the css style that applies to the Equalize Height settings page.
+- Added Global jQuery Lib plugin settings for loading jQuery lib on the front-end (built-in).
+- Re-defined the collapsed menu script to load at the the bottom of the page instead of loading it at the top of the page header.
+
+Version 1.3.7 (August 5, 2016)
+- Fixed special equalize front-end script database variable being mistakenly defined with an empty option.
+- Fixed the floating save icon overlay issue.
+- Fixed the Header and Footer scripts being loaded with an inappropriate load priority.
+- Added Override Cache option that will apply overrides to the xBrowser User Agents CSS options when using a caching plugin.
+- Added note on equalize container height regarding CSS ID's.
+- Removed the 1920 and 1600 screen resolution text-areas.
+- Changed the xBrowser Compatibility CSS option label to xBrowser User Agents.
+
+Version 1.3.6 (June 20, 2016)
+- Fixed a bug on page reload whenever the plugin is reactivated via the xBrowser plugin pages.
+- Added the "Edge" user agent for the new Microsoft Edge internet browser.
+- Added a change log link to the plugin update notification.
+
+Version 1.3.5 (June 16, 2016)
+- Fixed a bug on PHP session variables being unable to unset in some cases.
+- Added "Plugin Version Update Checker" that will check the latest version of the xBrowser plugin from a hosted text file from dropbox.
+- Added PHP constants to clean up variable declarations throughout the plugin.
+- Added Header and Footer Script embedder.
+- Added HTML, XML, Javascript and VB Script codemirror modes for "mixedMode" coding redered in the header and footer script textareas.
+- Added plugin reactivation that will always trigger reactivation of the plugin when plugin is updated to resfresh the activation hook and scheduled function events.
+- Re-coded the variables for plugin version. It will now use the defined plugin version constant.
+- Re-coded database variable for "Special Equalize" entries.
+- Relocated the main plugin page.
+- Relocated the front-end scripts into a single folder for cleanup.
+- Re-positioned the parent plugin menu to display right below the "Appearance" menu in the WP Dashboard.
+- Edited the plugin menu pages for a cleaner code markup.
+- Edited the plugin footer script action hooks for a cleaner code markup.
+- Slightly revamped the layout of the plugin dashboard pages.
+
+Version 1.3.4 (May 22, 2016)
+- Re-worked the Equalize Container Height to accept classes, ID's, or HTML Elements in CSS taregetting  format.
+- Added Special Equalize Height that will accept classes, ID's, or HTML Elements in CSS taregetting  format. Multiple entries can be added which will equalize the height from container 1 to container 2.
+- Added lint.js add-on for codemirror that will display error/warning messages on textarea fields.
+- Re-worked the script for showing the floating save icon. It will now show whenever checkboxes are checked or when scrolled on the textarea fields.
+- Added new floating save icon.
+- Relocated and Added Equalize settings page.
+- Added CodeMirror scroll positions that can be passed to PHP sessions for convenient saving.
+- Added admin error notice that will show if the "plugins" folder is not writable when initiating a manual plugin update.
+- Slightly revamped the layout of the plugin dashboard.
+- Added shortcut action links on the plugins page.
+
+Version 1.3.3 (April 14, 2016)
+- Plugin changelog can now be seen directly on the settings page.
+- Fixed equalize container height that is mistakenly enabled/disabled by the collapsed menu option field at the settings page.
+- Changed file name "front-end-scripts.php" to "collapsed-menu-script.php" and separated the equalize container height script with a file name "equalize-script.php".
+- Added save popup info message when saving on the main plugin page.
+
+Version 1.3.2 (April 13, 2016)
+- Added PHP sessions for checkboxes that will toggle and shows the current field editor automatically when saving.
+- Added script to auto-scroll to the main plugin textarea fields when saving in conjunction with PHP sessions.
+- Added the changelog button in the settings page.
+- Changed the XBrowser label to xBrowser in the main settings page.
+
+Version 1.3.1 (March 30, 2016)
+- Added back the dynamic icon color for the collapsed menu arrow icons that will automatically change the color dependent to the font color of the menu items.
+- Reduced the resize timeout from 500ms to 100ms (applies to equalizing height and collapsed menu item color).
+
+Version 1.3.0 (March 29, 2016)
+- Added a screen width trigger for equalizing container height and completely separated it from the screen width trigger as defined on the collapsed sub-menu layout.
+- The version.txt file can now be automatically re-written based on the version of the plugin rather than manually writing the version number into the version.txt file.
+- Temporarily removed the font color that is applied automatically to the collapsed icons when the browser is resized from the mobile layout to the desktop layout and vice-versa.
+
+Version 1.2.9 (February 17, 2016)
+- Added a url parameter with the plugin version for the declared admin-css.css and changelog.txt file to apply whenever the plugin is updated.
+
+Version 1.2.8 (February 16, 2016)
+- Added Wordpress built-in icons to display at the fron-end.
+- Replaced the plus and minus icons with right and down arrows.
+- Added a script to detect the color of the menu items and then apply the color to the new arrow icons.
+- Collapsed menu icons are now shown based on the mobile layout trigger rather than showing it with a static @media screen width.
+- Reworked the clear cache feature. Clear cache is now triggered when the plugin is successfully updated.
+- Removed the iframe, embed, object tag/class input field.
+- Corrected the directory path that are used for linking the Code Mirror librarry.
+- Revamped the admin.css file to apply the tweak on the layout style for the main plugin page.
+
+Version 1.2.7 (February 16, 2016)
+- Added "Screen Width Trigger" field to show mobile collapsed sub-menu when mobile layout is triggered based on screen width. Default is 980px.
+- Filtered some input fields to discard escape characters when saving to the database.
+- Revamped the admin.css file to apply the tweak on the layout style for the main plugin page.
+
+Version 1.2.6 (February 15, 2016)
+- Improved the Mobile Menu ID field in the settings page so that it will accept multiple CSS ID's.
+- Added the Mobile Menu Class field in the settings page that will accept multiple CSS Class.
+- Revamped the admin.css for a new layout on the field input labels for Mobile Menu "ID" and "Class".
+- Added a filter to the manual positioning field at the settings page to only accept "-" negative sign and numbers.
+- Corrected a redundant variable declared for the counter varible located at the directory "includes/front-end-script.php".
+- Re-coded the string and array variable declarations for default themes (Elegant and Themify) including the new array inputs for Mobile Menu "ID's" and "Class(es)".
+
+Version 1.2.5 (February 12, 2016)
+- Isolate the script run-time for equalizing container elements based on the supplied CSS class(es) rather than applying it as a whole.
+
+Version 1.2.4 (February 11, 2016)
+- Removed default info messages and replaced with Wordpress Core admin notification messages.
+- Revamped the admin.css file to apply brand new look accross the plugin pages.
+- Added the "Equalize Container Height" field that accepts multiple CSS class for equalizing container elements.
+- Added a script to effectively equalize the height of container elements based on the supplied CSS class(es).
+- Reworked the collapsed sub-menu option so that it will hide sub-menus effectively with a script instead of applying it via CSS.
+
+Version 1.2.0 (December 18, 2015)
+- Included a settings page with a plugin updater for easy plugin update (featured highlights).
+- Changed the filenames of front-end scripts.
+- Re-coded the plugin files to load admin CSS/JS scripts only on the plugin admin page rather than loading it on all admin pages.
+- Included function-scripts.php for a list of CSS/JS scripts and libs used in the plugin.
+- Included error debug functionality for tracing bugs/errors inside the whole Wordpress Dashboard.
+- Changed the save info fade time to 7 seconds (previously 5 seconds).
+- Transfered the two options (Show/Hide All and Collapsed Sub-Menu) in the settings page.
+- Added a save icon in the right side of the main window page for easy saving. It will automatically show if the page is scrollable, or if the Show / Hide is clicked.
+- Display checkbox fields after page load in the main plugin admin page rather than loading it directly to prevent incorrect property display attribute on show / hide dropdown slide.
+
+Version 1.1.9 (December 3, 2015)
+- Re-coded the xBrowser field areas to accept CSS style declrations on "specific" browsers (Chrome, Firefox, Safari, IE) instead of applying overrides for each CSS styles on selected internet browsers.
+- Added Code Mirror library for easy coding on the textarea fields. :)
+
+Version 1.1.8.5
+- Added header cache expires that defaults to "no cache" state in the xBrowser admin page to apply newer changelog.txt for dynamic update checking (if recent plugin updates are installed).
+- Re-coded database queries to match with database prefix as defined from wp-config.php.
+- Added manual positioning for mobile menu icons prior to custom mobile menus not included on a standard theme.
+
+Version 1.1.8
+- Fixed an issue where the navigation icons can affect anchor tagged button from the parent mobile navigation menu.
+
+Version 1.1.7
+- Re-coded the main functions of the plugin and included plugin sub-directories for cleaner code markup.
+- Changed the plugin admin name (WP Dashboard) to xBrowser.
+- Added a link to the changelog for update tracking via WP Dashboard.
+
+Version 1.1.6
+- Added default Mobile Menu ID's for Elegant and Themify themes.
+- Added Mobile Menu ID field for themes with different mobile wrapper ID's.
+- Added slide dropdown animation when Mobile ID field option is clicked.
+- Added step by step instructions to determine the Mobile ID value for other themes.
+
+Version 1.1.5
+- Added admin icon for the xBrowser settings page.
+- Added icons as buttons to toggle collapsed sub menus.
+
+Version 1.1.4
+- Added default collapsed menu when sub menus are present.
+- Added a script for collapsed sub menus.
+
+version 1.1.3
+- Added an option to hide sub navigation on mobile devices(currently defaults to hide sub navigation).
+- Added an option to show all options.
+- Added a feature to auto align images correctly on mobile devices with a screen resolution of 601px and below(default).
+- Added version number that will update depending on the plugin version data rather than placing it statisctically on the option page.
+
+version 1.1.1
+- Initial latest update

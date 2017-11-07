@@ -1,0 +1,12 @@
+.vCard.vcard-left {
+    text-align: left;
+}
+.vCard.vcard-right {
+    text-align: right;
+}
+.vCard.vcard-center {
+    text-align: center;
+}
+.vCard.vcard-left img{
+    border-radius:5px;
+}

@@ -1,0 +1,10 @@
+2.0.1
+- added [year]
+- reponsive css
+
+2.0.2
+- footer menu
+- added comments.php
+- hide tagline option
+- bread crumbs
+- custom comments

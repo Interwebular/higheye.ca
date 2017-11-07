@@ -1,0 +1,11 @@
+add_shortcode('ebs_seo_cp_hours_only', 'hours_shortcode_1');
+add_shortcode('ebs_seo_cp_hours_only_2', 'hours_shortcode_2');
+add_shortcode('ebs_seo_cp_hours_only_3', 'hours_shortcode_3');
+
+add_shortcode('ebs_seo_cp_contact_only', 'contact_shortcode_1');
+add_shortcode('ebs_seo_cp_contact_only_2', 'contact_shortcode_2');
+add_shortcode('ebs_seo_cp_contact_only_3', 'contact_shortcode_3');
+
+add_shortcode('ebs_seo_cp_social_media_only', 'social_media_shortcode_1');
+add_shortcode('ebs_seo_cp_social_media_only_2', 'social_media_shortcode_2');
+add_shortcode('ebs_seo_cp_social_media_only_3', 'social_media_shortcode_3');

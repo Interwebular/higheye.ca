@@ -1,0 +1,148 @@
+.quote {
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    clear: both;
+    padding: 10px;
+    
+}
+.quote h5 {
+    margin: 0 0 8px;
+    font-size: 15px;
+    
+}
+#fields {
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px;
+} 
+#fields ul.form-fields li {
+    border: solid #ddd 1px;
+    cursor: move;
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 0;
+}
+#fields ul.form-fields textarea {
+    vertical-align: middle;
+    width: 300px;
+    height: 80px;
+}
+.fieldtype {
+    display: inline-block;
+    width: 100px;
+}
+.alp-metabox label{
+    font-weight: bold;
+    display:block;
+}
+
+.wpvs-color-picker {
+    display:none;
+    position:absolute;
+    background:#ddd;
+    border:solid #aaa 1px;
+    margin:-12px 0 0 2px;
+}
+
+
+
+.wpvs-color-picker-input {
+    width:140px;
+}
+
+.add-more-element{
+    font-weight:normal;
+    color:#21759B;
+    cursor:pointer;
+}
+
+.add-more-element:hover{
+    color:#999;
+}
+
+.tbl-form-elements td{
+    vertical-align:top;
+}
+
+.tbl-form-elements {
+}
+
+.tbl-form-elements tr {
+    border-bottom:solid #eee 1px;
+}
+
+.tbl-form-elements tr p {
+    margin:0;
+}
+
+.tbl-form-elements td p {
+	width:100%;
+}
+
+.summary {
+    width: 100%;
+}
+.expiry-date-note {
+    display: block;
+    color: #DD3D36;
+}
+span.delete {
+    display: inline-block;
+    width: 200px;
+}
+span.delete {
+    display: inline-block;
+    width: 100px;
+}
+span.fieldtype {
+    display: inline-block;
+    width: 100px;    
+}
+span.is-required {
+    display: inline-block;
+    width: 100px;
+}
+span.label {
+    display: inline-block;
+    width: 210px;
+}
+span.shortcode {
+    display: inline-block;
+    width: 210px;
+}
+.component-options-header {
+    font-weight: bold;    
+    padding: 8px;
+    border: solid #ddd 1px;       
+}
+.component-options-header span {
+    
+}
+.form-fields {
+    margin-top: 0;
+}
+.admin-notification, .download-email-settings {
+    background: none repeat scroll 0 0 #eeeeee;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.admin-notification h3, .download-email-settings h3 {
+    padding: 8px 0!important;
+}
+.shortcode-old {
+    font-weight: bold;
+    display: inline-block;
+    width: 190px;
+}
+.sendpepper_area {
+    background-color: #eeeeee;
+    padding: 1px 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
